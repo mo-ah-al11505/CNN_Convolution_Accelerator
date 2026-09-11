@@ -1,23 +1,35 @@
-# ignore ModelSim generated files and directories (temp files and so on)
-[_@]*
-
-# ignore compilation output of ModelSim
-*.mti
-*.dat
-*.dbs
-*.psm
-*.bak
-*.cmp
-*.jpg
-*.html
-*.bsf
-
-# ignore simulation output of ModelSim
-wlf*
-*.wlf
+# ModelSim / Questa
+work/
 *.vstf
+transcript
+vsim.wlf
+wlf*
 *.ucdb
-cov*/
-transcript*
-sc_dpiheader.h
-vsim.dbg
+modelsim.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Vivado
+vivado_out/
+*.dcp
+*.jou
+*.log
+*.str
+.Xil/
+xsim.dir/
+*.wdb
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# MATLAB
+*.asv
+*.m~
